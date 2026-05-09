@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>ITI Admission Portal</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+  <!-- Navbar -->
+
+  <header class="navbar">
+
+    <div class="logo">
+      <i class="fa-solid fa-graduation-cap"></i>
+      ITI Admission Portal
+    </div>
+
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">Courses</a>
+      <a href="#">Admission</a>
+      <a href="#">Contact</a>
+    </nav>
+
+    <button id="loginBtn">Student Login</button>
+
+  </header>
+
+  <!-- Hero Section -->
+
+  <section class="hero">
+
+    <div class="hero-text">
+
+      <h1>ITI Admission Portal 2026</h1>
+
+      <p>
+        सरकारी एवं प्राइवेट ITI में ऑनलाइन आवेदन करें।
+        अपना रजिस्ट्रेशन करें और घर बैठे फॉर्म भरें।
+      </p>
+
+    </div>
+
+    <div class="hero-image">
+
+      <img src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+
+    </div>
+
+  </section>
+
+  <!-- Login Modal -->
+
+  <div class="modal" id="loginModal">
+
+    <div class="modal-box">
+
+      <span class="close">&times;</span>
+
+      <h2>Student Login</h2>
+
+      <form id="loginForm">
+
+        <input type="text" id="username" placeholder="Enter Username" required>
+
+        <input type="password" id="password" placeholder="Enter Password" required>
+
+        <button type="submit">Login</button>
+
+      </form>
+
+      <p class="register-link">
+        New Student?
+        <a href="#">Register Here</a>
+      </p>
+
+    </div>
+
+  </div>
+
+<script src="script.js"></script>
+</body>
+</html>
